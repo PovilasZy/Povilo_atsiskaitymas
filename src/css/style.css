@@ -1,0 +1,54 @@
+body, html {
+    margin: auto 10% auto 10%;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header .logo {
+    display: left;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.header .pris {
+    display: right;
+    margin-right: 0px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 20px 0px 20px 0px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.iesk {
+    float: right;
+}
+
+a{
+    text-decoration:none;  
+    color:black; 
+    float: right;
+  }
+
+.straipsnis{
+    padding: 20px;
+    border: 1px solid black;  
+}
