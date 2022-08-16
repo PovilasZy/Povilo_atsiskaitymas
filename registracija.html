@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <title>Naujo vartotojo registracija</title>
+        
+        <style>
+            
+        form {
+        width: 350px;
+        margin:100px auto auto auto;
+        border: 2px solid grey;
+        padding: 20px;
+        }
+        
+        table{
+        margin:auto;         
+        border-collapse: separate;
+        border-spacing: 10px 10px;        
+        }
+        
+        .reg{
+        margin: 30px auto auto 125px;
+        padding: 5px 15px 5px 15px;
+        }
+        
+        h1{
+        font-size: 20px;
+        margin: 2px auto 10px 60px;        
+        }       
+        </style>
+        
+    </head>
+    
+    <body>
+                
+        
+        <header></header>
+        
+        <form action="registracijos.php" method="post">
+            <h1>Naujo vartotojo registracija</h1>
+            <table>                
+                <tr><td>El. pastas</td><td><input type="text" name="elpastas"/></td></tr>
+                <tr><td>Slaptazodis</td><td><input type="password" name="psw"/></td></tr>
+                <tr><td>Pakartoti slaptazodi</td><td><input type="password" name="psw2"/></td></tr>                
+            </table>
+<input type="submit" class="reg" value="Registruotis"/>            
+        </form>       
+                
+        <footer></footer> 
+        
+        
+        
+    </body>
+</html>
