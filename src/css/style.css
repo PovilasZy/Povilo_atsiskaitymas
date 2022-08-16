@@ -1,10 +1,9 @@
 body, html {
-    margin: auto 10% auto 10%;
+    margin: 1% 10% auto 10%;
 }
 
 header {
     height:50px;
-    margin-top: 20px;
 }
 
 header .logo {
