@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <title>Prisijungimas prie sistemos</title>
+        
+        <style>
+              
+        form {
+        width: 300px;
+        margin:100px auto auto auto;
+        border: 2px solid grey;
+        padding: 20px;
+        }
+        
+        table{
+        margin:auto;         
+        border-collapse: separate;
+        border-spacing: 10px 10px;        
+        }
+        
+        .pris{
+        padding: 5px 15px 5px 15px;           
+        }
+        
+        .reg{
+        margin-left: 100px;                
+        }
+        
+        h1{
+        font-size: 20px;
+        margin: 2px auto 10px 30px;        
+        }       
+        </style>
+        
+    </head>
+    
+    <body>
+        <header></header>
+        
+        <form action="prisijungimo.php" method="post">
+            <h1>Prisijungimas prie sistemos</h1>
+            <table>                
+                <tr><td>El. pastas</td><td><input type="text" name="elpastas"/></td></tr>
+                <tr><td>Slaptazodis</td><td><input type="password" name="password"/></td></tr>
+                
+                <tr><td><input type="submit" name="login" class="pris" value="Prisijungti"/></td><td><a class=reg href="registracija.php">Registruotis</a></td></tr>
+                
+            </table>            
+        </form> 
+                      
+        <footer></footer>    
+    </body>
+</html>
